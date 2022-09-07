@@ -20,7 +20,7 @@ namespace ProcessWire;
 
 $info = array(
 	'title' => 'RockFrontendTailwind',
-	'version' => '1.0.0',
+	'version' => '1.1.0',
 	'summary' => 'Extends module RockFrontend to provide a Tailwind CSS profile',
 	'author' => 'gebeer',
 	'href' => 'https://github.com/gebeer/RockFrontendTailwind/',
