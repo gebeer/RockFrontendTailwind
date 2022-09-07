@@ -8,6 +8,7 @@ $rockfrontend->styles()
   ->add('/site/templates/assets/main.css');
 $rockfrontend->scripts()
   ->add('/site/templates/assets/main.js');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +21,6 @@ $rockfrontend->scripts()
 </head>
 
 <body>
-  <?= $rockfrontend->renderLayout($page) ?>
   <?php
   // this is just an example of how you could add another scripts section
   // you can safely remove this call if you don't want to add any scripts
