@@ -1,6 +1,6 @@
 ## Tailwind Profile
 
-The Tailwind profile sets up all necessary files needed to get started with a build pipeline that uses tailwindcss, webpack, postcss and babel to process your Javascript and CSS. A folder "rockfrontendtailwind" will be installed inside `site/templates`.  
+The Tailwind profile sets up all necessary files needed to get started with a build pipeline that uses tailwindcss, webpack, postcss and babel to process your Javascript and CSS. A folder "rockfrontendtailwind" will be installed inside `site/templates`. Also a file "_main.php" will be installed to `site/templates`. It contains the minimal setup to load the compiled assets.
 
 ### Initial setup
 1. rename `site/templates/rockfrontendtailwind/.env-default` to `site/templates/rockfrontendtailwind/.env`

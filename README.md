@@ -10,6 +10,7 @@ A folder "rockfrontendtailwind" will be installed in `site/templates`. That fold
 
 By default compiled files (main.css and main.js) will be saved to `site/templates/assets`. This can be adjusted (see chapter Configuration files below)
 
+Also a file "_main.php" will be installed to `site/templates`. It contains the minimal setup to load the compiled assets.
 
 ## Installation
 **manual**
