@@ -23,8 +23,9 @@ Copy the folder "RockFrontendTailwind" to `site/modules`
 Install the module from ProcessWire Backend
 
 ## Initial setup
-1. Open a terminal inside `site/templates/rockfrontendtailwind`
-2. install dependencies: `npm install`
+1. rename `site/templates/rockfrontendtailwind/.env-default` to `site/templates/rockfrontendtailwind/.env`
+2. Open a terminal inside `site/templates/rockfrontendtailwind`
+3. install dependencies: `npm install`
 
 ## Usage 
 - watch files during development: `npm run watch`
