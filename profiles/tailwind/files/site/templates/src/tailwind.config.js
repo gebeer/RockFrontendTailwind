@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['../site/templates/**/*.php'],
+  content: [process.env.TAILWIND_WATCH],
   theme: {
     fontFamily: {
       // 'sans': ['MaderaRegular', 'sans-serif'],
